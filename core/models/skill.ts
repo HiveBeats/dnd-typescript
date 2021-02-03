@@ -1,9 +1,9 @@
 class Skill {
     readonly name: string;
     readonly damage: number;
-    readonly damageDice: number;
+    readonly damageDice: Dice | undefined;
     
-    constructor(skillName:string, skillDamage:number, skillDamageDice:number) {
+    constructor(skillName:string, skillDamage:number, skillDamageDice:Dice) {
         this.name = skillName;
         this.damage = skillDamage;
         this.damageDice = skillDamageDice;
