@@ -1,4 +1,6 @@
-class Race {
+import { Skill } from "./skill";
+
+export class Race {
     public name: string;
     public intitialSkills: Skill[];
 

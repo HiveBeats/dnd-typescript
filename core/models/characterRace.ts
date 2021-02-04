@@ -1,4 +1,6 @@
-class CharacterRace {
+import { Skill } from "./skill";
+import { Race } from "./race";
+export class CharacterRace {
     private race: Race;
     skills: Skill[] = [];
 

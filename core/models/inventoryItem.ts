@@ -1,5 +1,5 @@
-class InventoryItem {
-    constructor(readonly name: string, readonly amount: number) {
+export class InventoryItem {
+    constructor(readonly name: string, public amount: number) {
         
     }
 }

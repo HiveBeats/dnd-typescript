@@ -1,4 +1,8 @@
-class ClassBase {
+import { Skill } from "./skill";
+import { Dice } from "./dice";
+import { InventoryItem } from "./inventoryItem";
+
+export class ClassBase {
     public name: string | undefined;
     public baseSkills: Skill[] = [];
     public baseSpells: Skill[] = [];

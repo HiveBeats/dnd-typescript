@@ -1,4 +1,6 @@
-class Skill {
+import { Dice } from "./dice";
+
+export class Skill {
     readonly name: string;
     readonly damage: number;
     readonly damageDice: Dice | undefined;
