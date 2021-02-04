@@ -12,6 +12,6 @@ export class ClassBase {
     public spellSlotsCount: number | undefined;
     public baseMoneyAmount: number | undefined;
     public baseHitPointsDice: Dice | undefined;
-
+    public savingThrows: string[] = [];
     protected constructor() { }
 }
